@@ -15,5 +15,5 @@ A food order application for restaurant with CRUD and authentication
   - Window: C:/Apache24/htdocs (If you use apache2 web server)
 
 ## References
-https://www.phpmyadmin.net/
-https://www.sitepoint.com/how-to-install-apache-on-windows/
+- https://www.phpmyadmin.net/
+- https://www.sitepoint.com/how-to-install-apache-on-windows/
