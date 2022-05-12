@@ -17,3 +17,4 @@ A food order application for restaurant with CRUD and authentication
 ## References
 - https://www.phpmyadmin.net/
 - https://www.sitepoint.com/how-to-install-apache-on-windows/
+- https://www.youtube.com/playlist?list=PLBLPjjQlnVXXBheMQrkv3UROskC0K1ctW
