@@ -2,7 +2,9 @@
 
 A food order application for restaurant with CRUD and authentication
 
--   Functionalized login authentication and access control by using PHP
+-   Developed login authentication and access control by using PHP
+-   Created SQL query to insert, delete, update, select and compare with admin data
+-   Built communication between web page and database with PHP
 
 ## Technical specification
 
