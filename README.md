@@ -56,40 +56,36 @@ A food order application for restaurant with CRUD and authentication
     |- customer_address
 ```
 
-## Database
+## SQL query command
+
+-   Save the admin data into database
+
+```sql
+INSERT INTO tbl_admin SET
+    full_name='$full_name',
+    username='$username',
+    password='$password'
 ```
-|- tbl_admin
-    |- id
-    |- full_name
-    |- username
-    |- password
-|- tbl_category
-    |- id
-    |- title
-    |- image_name
-    |- featured
-    |- active
-|- tbl_food
-    |- id
-    |- title
-    |- description
-    |- price
-    |- image_name
-    |- catigory_id
-    |- featured
-    |- active
-|- tbl_order
-    |- id
-    |- food
-    |- price
-    |- qty
-    |- total
-    |- order_date
-    |- status
-    |- customer_name
-    |- customer_contact
-    |- customer_email
-    |- customer_address
+
+-   Delete the admin data from database
+
+```sql
+DELETE FROM tbl_admin WHERE id=$id
+```
+
+-   Check whether the user with username and password exists or not
+
+```sql
+SELECT * FROM tbl_admin WHERE username='$username' AND password='$password'
+```
+
+-   Update the admin data
+
+```sql
+UPDATE tbl_admin SET
+    full_name = '$full_name',
+    username = '$username'
+    WHERE id='$id'
 ```
 
 ## References
