@@ -56,6 +56,42 @@ A food order application for restaurant with CRUD and authentication
     |- customer_address
 ```
 
+## Database
+```
+|- tbl_admin
+    |- id
+    |- full_name
+    |- username
+    |- password
+|- tbl_category
+    |- id
+    |- title
+    |- image_name
+    |- featured
+    |- active
+|- tbl_food
+    |- id
+    |- title
+    |- description
+    |- price
+    |- image_name
+    |- catigory_id
+    |- featured
+    |- active
+|- tbl_order
+    |- id
+    |- food
+    |- price
+    |- qty
+    |- total
+    |- order_date
+    |- status
+    |- customer_name
+    |- customer_contact
+    |- customer_email
+    |- customer_address
+```
+
 ## References
 
 -   https://www.phpmyadmin.net/
